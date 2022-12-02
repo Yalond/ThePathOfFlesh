@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Textures/characters.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Characters.gd" type="Script" id=2]
+
+[sub_resource type="AtlasTexture" id=1]
+resource_local_to_scene = true
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 6.6853, 13.6731 )
+
+[node name="Characters" type="Sprite"]
+position = Vector2( -28, -70 )
+texture = SubResource( 1 )
+script = ExtResource( 2 )
+onColor = Color( 1, 0.984314, 0.894118, 1 )
+offColor = Color( 1, 0, 0, 1 )
+doneColor = Color( 1, 0.984314, 0.894118, 1 )
+charSize = Vector2( 11, 22 )

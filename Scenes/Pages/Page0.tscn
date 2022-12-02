@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/Characters.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/Text.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/Page.gd" type="Script" id=3]
+[ext_resource path="res://Textures/tex.png" type="Texture" id=4]
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 4 )
+region = Rect2( 431, 12, 144, 232 )
+
+[node name="Page" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Background" type="Sprite" parent="."]
+texture = SubResource( 13 )
+
+[node name="Text" type="Node2D" parent="."]
+script = ExtResource( 2 )
+characterSprite = ExtResource( 1 )
+text = "abcdeee"
+cellSize = Vector2( 11, 22 )
+acrossWidth = 10.0
+
+[node name="Text2" type="Node2D" parent="."]
+position = Vector2( 0, -81 )
+script = ExtResource( 2 )
+characterSprite = ExtResource( 1 )
+text = "abc"
+cellSize = Vector2( 11, 22 )
+acrossWidth = 10.0
+
+[node name="Text3" type="Node2D" parent="."]
+position = Vector2( 0, -41 )
+script = ExtResource( 2 )
+characterSprite = ExtResource( 1 )
+text = "bcd"
+cellSize = Vector2( 11, 22 )
+acrossWidth = 10.0
