@@ -1,15 +1,15 @@
 # ThePathOfFlesh - A Horror Puzzle Game
 
-PathOfFlesh is a horror puzzle game developed during a game jam hosted on Github. The game involves solving puzzles in a magical book where each puzzle unlocks a new piece of the story. The game is designed to keep the player on the edge of their seat as they solve puzzles and uncover the mysteries within the book.
+PathOfFlesh is a horror puzzle game developed during a game jam hosted on Github. The game involves solving puzzles in a magical book where each puzzle unlocks a new piece of the story. The game is designed to keep the player on the edge of their seat as they solve puzzles and uncover the mysteries within.
 
 ## Gameplay
 
-In PathOfFlesh, the player takes on the role of a protagonist who has stumbled upon a magical book filled with puzzles. As the player solves each puzzle, a new piece of the story emerges, leading the player deeper into the mystery. The puzzles range from easy to challenging, and as the player progresses, the difficulty level increases. The puzzles are designed to challenge the player's logic and thinking skills.
+In ThePathOfFlesh, the player takes on the role of a protagonist who has stumbled upon a magical book filled with puzzles. As the player solves each puzzle, a new piece of the story emerges, leading the player deeper into the mystery. The puzzles range from easy to challenging, and as the player progresses, the difficulty level increases. The puzzles are designed to challenge the player's logic and thinking skills.
 
 
 ## Installation
 
-This is a godot project. If you want to play it, you'll need to build it inside Godot.
+This is a Godot project. If you want to play it, you'll need to build it inside Godot.
 
 ## Contribution
 
